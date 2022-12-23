@@ -22,8 +22,8 @@ resource "google_compute_instance" "gl-bc-lamp" {
 
     boot_disk {
       initialize_params {
-        image = "ubuntu-os-pro-cloud/ubuntu-pro-2004-lts"
-		    size = 13
+        image = "debian-cloud/debian-10"
+		    size = 20
       }
       
     }
